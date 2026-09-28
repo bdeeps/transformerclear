@@ -1,0 +1,126 @@
+{
+  "slug": "transformerclear",
+  "box": 86,
+  "question": "How does an electric transformer work?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/transformerclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/transformerclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "Nearly two centuries from Faraday's iron ring to the 1,200 kV giants tested in Madhya Pradesh.\n\n1831: Faraday's induction ring\n1882: Gaulard and Gibbs's secondary generator\n1885: A closed core, and the word “transformer”\n1886: Great Barrington lights up\n1888: The war of the currents\n1891: Three-phase power crosses 175 km\n\nThe full story, with 30 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/transformerclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/transformerclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #transformer #electromagneticinduction #turnsratio #ac #threephase #powergrid #history",
+      "youtube": {
+        "title": "The history of the transformer in 45 seconds #shorts",
+        "description": "Nearly two centuries from Faraday's iron ring to the 1,200 kV giants tested in Madhya Pradesh.\n\n1831 · Faraday's induction ring (Michael Faraday)\n1882 · Gaulard and Gibbs's secondary generator (Lucien Gaulard and John Dixon Gibbs)\n1885 · A closed core, and the word “transformer” (Károly Zipernowsky, Ottó Bláthy and Miksa Déri)\n1886 · Great Barrington lights up (William Stanley Jr., for George Westinghouse)\n1888 · The war of the currents (Thomas Edison against George Westinghouse and Nikola Tesla)\n1891 · Three-phase power crosses 175 km (Mikhail Dolivo-Dobrovolsky, AEG and Oskar von Miller)\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/transformerclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/transformerclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does an electric transformer work?\n\nThe grey box on your street's pole has no moving parts, yet it turns 11,000 volts into the 230 volts in your socket. Open one up in 3D, watch the flux swing through its iron core, and follow the power from a 400 kV line to your phone charger.\n\n→ The grey box on your street’s pole turns 11,000 volts into 230 volts for about a hundred homes.\n→ Inside: an iron core, copper coils and oil. No moving parts at all.\n→ AC in the primary makes a flux that swings back and forth round the iron core.\n→ The same flux passes the secondary. Fewer turns, fewer volts: 11,000 V becomes 250 V.\n→ A generator transformer lifts 21,000 volts to 400,000 so the long lines carry little current.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/transformerclear (link in bio)\n\nBox No. 086 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #transformer #electromagneticinduction #turnsratio #ac #threephase #powergrid #distributiontransformer #beestarrating #physics",
+    "carousel": "Swipe through: How does an electric transformer work?\n\nThe grey box on your street's pole has no moving parts, yet it turns 11,000 volts into the 230 volts in your socket. Open one up in 3D, watch the flux swing through its iron core, and follow the power from a 400 kV line to your phone charger.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/transformerclear (link in bio).\n\nBox No. 086 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #transformer #electromagneticinduction #turnsratio #ac #threephase #powergrid",
+    "youtube": {
+      "title": "How does an electric transformer work? #shorts",
+      "description": "The grey box on your street's pole has no moving parts, yet it turns 11,000 volts into the 230 volts in your socket. Open one up in 3D, watch the flux swing through its iron core, and follow the power from a 400 kV line to your phone charger.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/transformerclear/\n⌘ Source code (MIT): https://github.com/bdeeps/transformerclear\n\nBox No. 086 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does an electric transformer work? (interactive explainer)",
+      "description": "The grey box on your street's pole has no moving parts, yet it turns 11,000 volts into the 230 volts in your socket. Open one up in 3D, watch the flux swing through its iron core, and follow the power from a 400 kV line to your phone charger.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/transformerclear/\n⌘ Source code (MIT): https://github.com/bdeeps/transformerclear\n\nIn this video:\n• Two coils, one iron core. A transformer is two coils of wire wound on a core of thin steel sheets.\n• Turns set the voltage. Every turn on the core feels the same volts, so V₂ ÷ V₁ = N₂ ÷ N₁.\n• Step up, then step down. A power station's 21 kV is stepped up to 400 kV so the long lines carry little current and lose little as I²R heat.\n• Where the 1–2% goes. Core loss (hysteresis and eddy currents in the steel) is there all day; thin 0.27 mm laminations and amorphous metal keep it small.\n• Three phases, delta and star. The pole transformer is delta on the 11 kV side and star on the 433 V side.\n• Heat, faults and safety. Overload on a hot night and the windings' paper insulation ages twice as fast for every 6 °C above 98 °C.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does an electric transformer work?\n\nThe grey box on your street's pole has no moving parts, yet it turns 11,000 volts into the 230 volts in your socket.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/transformerclear/",
+    "linkedin": "How does an electric transformer work?\n\nThe grey box on your street's pole has no moving parts, yet it turns 11,000 volts into the 230 volts in your socket. Open one up in 3D, watch the flux swing through its iron core, and follow the power from a 400 kV line to your phone charger.\n\n1. Two coils, one iron core\n2. Turns set the voltage\n3. Step up, then step down\n4. Where the 1–2% goes\n5. Three phases, delta and star\n6. Heat, faults and safety\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 086 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/transformerclear/\nCode: https://github.com/bdeeps/transformerclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-28T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-28T11:41:25.595Z"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "transformerclear",
+  "box": 86,
+  "date": "2026-09-29",
+  "title": "TransformerClear",
+  "question": "How does an electric transformer work?",
+  "hook": "The grey box on your street's pole has no moving parts, yet it turns 11,000 volts into the 230 volts in your socket. Open one up in 3D, watch the flux swing through its iron core, and follow the power from a 400 kV line to your phone charger.",
+  "thumbText": "HOW A TRANSFORMER WORKS",
+  "field": "physics",
+  "minutes": 15,
+  "tags": [
+    "transformer",
+    "electromagnetic induction",
+    "turns ratio",
+    "AC",
+    "three-phase",
+    "power grid",
+    "distribution transformer",
+    "BEE star rating",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Two coils, one iron core",
+      "text": "A transformer is two coils of wire wound on a core of thin steel sheets. AC in the first coil makes a magnetic flux that swings back and forth 50 times a second round the core, and that changing flux induces a voltage in the second coil. The coils never touch."
+    },
+    {
+      "title": "Turns set the voltage",
+      "text": "Every turn on the core feels the same volts, so V₂ ÷ V₁ = N₂ ÷ N₁. The pole transformer on an Indian street has about 2,464 turns on its 11 kV side and 56 on its 250 V side. Power in ≈ power out, so when the voltage goes down 44 times, the current goes up 44 times. On DC the flux stops changing and nothing comes out."
+    },
+    {
+      "title": "Step up, then step down",
+      "text": "A power station's 21 kV is stepped up to 400 kV so the long lines carry little current and lose little as I²R heat. Substations step it down, 220, 132, 33, 11 kV, and the pole transformer makes 433 V (230 V per phase). A phone charger's SMPS does the last step at about 65 kHz with a fingernail-sized core."
+    },
+    {
+      "title": "Where the 1–2% goes",
+      "text": "Core loss (hysteresis and eddy currents in the steel) is there all day; thin 0.27 mm laminations and amorphous metal keep it small. Copper loss grows with the load squared. Hot oil rises past the coils, cools in the radiator fins and sinks back. India's BEE star label rates transformers by their losses."
+    },
+    {
+      "title": "Three phases, delta and star",
+      "text": "The pole transformer is delta on the 11 kV side and star on the 433 V side. From any phase to the star point, the neutral, you get about 230 V; between two phases, √3 × 230 ≈ 400 V. Balanced loads cancel in the neutral; the neutral carries only the imbalance."
+    },
+    {
+      "title": "Heat, faults and safety",
+      "text": "Overload on a hot night and the windings' paper insulation ages twice as fast for every 6 °C above 98 °C. Inside faults make gas, which a Buchholz relay catches to sound an alarm or trip. Never climb a transformer structure or open its box: if you see smoke or leaking oil, keep away and call the electricity helpline."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Mutual induction",
+      "def": "A changing current in one coil makes a voltage in another coil that shares its magnetic flux."
+    },
+    {
+      "term": "Turns ratio",
+      "def": "N₂ ÷ N₁, the ratio of secondary to primary turns. It sets the voltage ratio, and the current ratio the other way round."
+    },
+    {
+      "term": "EMF equation",
+      "def": "E = 4.44 f N Φmax: the rms voltage of a coil of N turns carrying a sine-wave flux of peak Φmax at frequency f."
+    },
+    {
+      "term": "CRGO steel",
+      "def": "Cold-rolled grain-oriented silicon steel, whose lined-up crystals let flux flow easily along the sheet."
+    },
+    {
+      "term": "Eddy currents",
+      "def": "Swirls of current induced inside the core itself; thin insulated laminations keep them small."
+    },
+    {
+      "term": "Core and copper loss",
+      "def": "Core loss is wasted in the steel whenever the transformer is on; copper loss is I²R heat in the windings and grows with load squared."
+    },
+    {
+      "term": "Delta and star",
+      "def": "Two ways to join three coils: in a triangle (delta, no neutral) or at one common point (star, with a neutral)."
+    },
+    {
+      "term": "ONAN cooling",
+      "def": "Oil natural, air natural: hot oil rises and cool oil sinks through the radiator fins with no pump or fan."
+    },
+    {
+      "term": "Buchholz relay",
+      "def": "A device in the pipe to the conservator that detects gas and oil surges from faults inside the tank."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "transformerclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
